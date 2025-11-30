@@ -1,0 +1,224 @@
+body {
+    background-color: rgb(85, 96, 108); 
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-rows: repeat(12, 100px); 
+border: 1px dashed #1e96ff;
+}
+
+.grid-item {
+background-color: #121416e0;  
+color: #ffffff;
+text-align: center;
+margin: 4px;
+border: 4px double rgba(102, 2, 102, 0.692);
+border-radius: 9px;
+box-shadow: 5px 5px 15px black; 
+}
+
+/*Header Blocks*/
+
+.title {
+    padding: 25px;
+    grid-column: span 12;
+    border: 8px double red; 
+}
+
+.nav1 {
+    border: 5px double red; 
+    grid-column: span 4;
+    padding: 35px;
+    margin: 0 0 15px 0;
+}
+.nav2 {
+    border: 5px double red; 
+    grid-column: span 4;
+    padding: 35px;
+    margin: 0 0 15px 0;
+}
+.nav3 {
+    
+    border: 5px double red; 
+    grid-column: span 4;
+    padding: 35px;
+    margin: 0 0 15px 0;
+}
+
+/*Base Stat blocks*/
+
+.baseMod {
+    position: relative; 
+    bottom: 10px; 
+    left: 6px; 
+    border: 1px solid rgba(102, 2, 102, 0.692);
+    width: 80px;
+    border-radius: 5px;
+}
+
+.blockTitle1 { 
+  position: relative;
+  bottom: 12px;
+  background-color: #121416e0;
+  border-radius: 30ch;
+  border: 2px double rgba(102, 2, 102, 0.692);
+}
+
+.baseStatInfo {
+    position: relative;
+    bottom: 18px;
+    background-color: #121416e0;
+    border-radius: 50%;
+    border: 2px double rgba(102, 2, 102, 0.692);
+    width: 50px;
+    margin-left: 20px;
+}
+
+.strength {
+    grid-column: span 1;
+}
+
+.dex {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.con {
+    grid-column: span 1;
+    grid-row: span 1 ;
+}
+.int {
+    grid-column: span 1;
+    grid-row: span 1 ;
+}
+.wis {
+    grid-column: span 1;
+}
+.cha {
+    grid-column: span 1;
+}
+.lux {
+    grid-column: span 1;
+}
+.spd {
+    grid-column: span 1;
+}
+
+/*health*/
+
+.healthBlock {
+    grid-column: span 4;
+    
+}
+
+.healthBox {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100%; 
+    padding: 2px;    
+}
+
+.health-item {
+    border: 1px solid black;
+}
+.heal {
+ grid-column: span 1;
+}
+.current {
+ grid-column: span 2;
+}
+.max {
+ grid-column: span 2;
+}
+.currentDisplay {
+ grid-column: span 1;
+}
+.totalDisplay {
+ grid-column: span 1;
+}
+.healthPoints {
+ grid-column: span 3;
+}
+.divide {
+ grid-column: span 1;
+}
+.hpInput {
+ grid-column: span 1;
+ border: hidden;
+   
+}
+#hpMod {
+    background-color: #121416e0;
+    height: 100%;
+    border: hidden;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+.dmg {
+ grid-column: span 1;
+}
+
+
+/*Saves*/
+
+.item-10 {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+/*Skill*/
+
+.item-11 {
+    grid-column: span 3;
+    grid-row: span 10;
+}
+
+/*initiative*/
+
+.item-12{
+    grid-column: span 2;
+}
+
+/*Armor*/
+
+.item-13 {
+    grid-column: span 1;
+}
+
+/*buffs/debuffs*/
+
+.item-14 {
+    grid-column: span 3;
+}
+
+/*character info blocks*/
+
+.item-15 {
+    grid-column: span 6;
+    grid-row: span 9;
+}
+
+/*Senses*/
+
+.item-16 {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+
+/*Proficiencies & training*/
+
+.item-17 {
+    grid-column: span 3;
+    grid-row: span 4;
+}
+
+
+
+

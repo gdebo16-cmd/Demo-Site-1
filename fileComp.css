@@ -1,0 +1,66 @@
+body {
+    background-color: darkslateblue;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+header {
+    border-radius: 2ch 2ch 2ch 2ch ;
+    box-shadow: 2px 2px 30px rgb(255, 255, 255);
+}
+h1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(52, 45, 100);
+    margin: 5% 0 0 0;
+    border-radius: 1ch 1ch 0 0;
+   
+}
+nav {
+    text-align: center;
+    background-color: darkslateblue;
+    padding: 20px;
+    border-radius: 0 0 2ch 2ch;
+
+}
+
+
+
+main{ 
+    display: flex;
+    justify-content: center;
+}
+#cartoon {
+    width: 400px;
+    height: 600px; 
+    margin: 5%;
+    border-radius: 5ch;
+    box-shadow: 2px 2px 30px rgb(255, 255, 255);
+    transform: translateY(0) translateX(0) scale(1);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+#cartoon:hover {
+   transition:ease-in-out 10px;
+    transform: translateY(10px) translateX(0) scale(1.08);
+    box-shadow: 0 0 50px 30px rgb(248, 247, 247); 
+}
+
+#homebtn {
+    color:rgb(252, 252, 253);
+    text-decoration: none;
+    background-color: rgb(77, 11, 183);
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 30px rgb(255, 255, 255);
+    border-style: hidden;
+    transform: translateY(0) translateX(0) scale(1);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+#homebtn:hover {
+    transition:ease-in-out 10px;
+    transform: translateY(-10px) translateX(-10px) scale(1.08);
+    box-shadow: 0 0 50px 30px rgb(255, 255, 255);
+}

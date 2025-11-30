@@ -1,0 +1,119 @@
+<!doctype html>
+<lang="en">
+<html>
+
+
+<head>
+  <meta charset="utf-8" />
+  <link href="demo1_1.css" rel="stylesheet">
+  <title>Dog Diary</title>
+</head>
+
+<body>
+ <div id="pageTop"> <!--Shadow box breakdown (horizontal-offset  vertical-offset  blur  spread  color  Inset, (second box))-->
+  <header>
+   <h1 class="title" id="mainTitle">Dog Diary</h1>
+  </header> 
+  <nav>
+   <a href="index.html">Home</a>
+  </nav>
+</div>
+
+<main>
+
+<!--happy buttons-->
+
+<section>
+  <div id="block1">
+    <h2 class="title1" id="title1">Lets Feel Better</h2>
+     <div id="body1">
+     <button class="button" id="button1" onclick="giveGreeting1()">Click Me Once!</button>
+     <textarea class="text" id="text1" rows="4" cols="50"></textarea>
+     <button class="button" id="button2" onclick="giveGreeting2()">Or Click Me a Few Times!</button>
+    </div>  
+  </div>
+</section>
+
+<!-- Choose Your Fighter Codes-->
+
+<section id="block2"> 
+  <h2 class="title" id="title2">Choose your Fighter</h2>
+  <div id="body2">
+  <button class="button" id="button3" onclick="displayDoggo1()">Doggo 1</button>
+  <img id="battlePic" src="Battlemicah.jpg" alt="cow">
+  <button class="button" id="button4" onclick="displayDoggo2()">Doggo 2</button>
+</div>
+</section>
+
+<!--dog tiles-->
+<!--Micah Tiles-->
+
+<section class= container id="container1">
+
+<div id="block3">
+ <h2 class="title" id="title3">Doggos that are also cows</h2>
+  <div id="body3">
+   <div class="tile" id="tile1">
+    <img Class="pic" id="micahpic1" src="Micah2.jpg" alt="Micah the doggo looking cute">
+     <p class="caption" id="caption1">Micah Squaring Up</p>
+   </div>
+   <div class="tile" id="tile2">
+    <img Class="pic" id="micahpic2" src="Micah3.jpg" alt="Micah the doggo looking silly">
+     <p class="caption" id="caption2">Micah disguised as a bunny</p>
+   </div>
+  </div>
+ <p class="footerP" id="para1">The most beautiful doggo</p>
+</div>
+
+<!--Mochi Tiles-->
+
+<div id="block4">
+ <h2 class="title" id="title4">Doggos that are also giraffes</h2>
+  <div id="body4">
+   <div class="tile" id="tile3">
+    <img Class="pic" id="mochipic1" src="Mochi1.jpg" alt="Mochi the doggo looking like a bean">
+     <p class="caption" id="caption3">Mochi doin a concern</p>
+   </div>
+   <div class="tile" id="tile3">
+    <img Class="pic" id="mochipic2" src="Mochi3.jpg" alt="Mochi the doggo looking shocked">
+     <p class="caption" id="caption4">Mochi contemplating life</p>
+   </div>
+  </div>
+ <p class="footerP" id="para2">At least she is not a baked bean</p>
+</div>
+
+</section>
+
+<!--Criminal Records-->
+<!-- Micahs Criminal Record Coding-->
+
+<section class= container id="container2">
+ <div id="block5">
+  <h3 class="title" id="title5">Micahs Criminal Record</h3>
+   <div id="body5">
+    <button class="button" id="button5" onclick="showDoggoInfo()">Micah Doggo</button>
+    <textarea class="text" id="text2" placeholder="Click Button for Truth" rows="4" cols="50"></textarea>
+   </div>
+ </div>
+ 
+
+<!-- Mochis Criminal Record Coding-->
+
+ <div id="block6">
+  <h3 class="title" id="title6">Mochis Criminal Record</h3>
+   <div id="body6">
+    <button class="button" id="button6" onclick="showDoggoInfo2()">Mochi Doggo</button>
+    <textarea class="text" id="text3" placeholder="Click Button for Truth" rows="4" cols="50"></textarea>
+   </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+</footer>
+<script src="demo1.js"></script>
+<script src="Demo1.1.js"></script>
+<script src="Demo1.2.js"></script>
+</body>
+</html>`
