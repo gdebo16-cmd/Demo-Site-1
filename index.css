@@ -138,7 +138,6 @@ img {
   transform-style: preserve-3d;
   will-change: transform;
   position: relative;
-  user-select: none;
 }
 
 .test li > img {
